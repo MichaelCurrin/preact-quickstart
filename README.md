@@ -3,6 +3,14 @@
 Template project for an Node app built with Preact - [preactjs.com](https://preactjs.com).
 
 
+[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/preact-quickstart)](https://github.com/MichaelCurrin/preact-quickstart/tags/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
+
+[![npm preact](https://img.shields.io/badge/npm-preact-blue)](https://www.npmjs.com/package/preact)
+
+[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/preact-quickstart/generate)
+
+
 ## Background
 
 This project was generated using instructions in the [preact-cli](https://github.com/preactjs/preact-cli#readme) README file.
