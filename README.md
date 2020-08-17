@@ -24,6 +24,11 @@ Install [Node.js](https://gist.github.com/MichaelCurrin/aa1fc56419a355972b96bce2
 
 Clone this project.
 
+```sh
+$ git clone git@github.com:MichaelCurrin/preact-quickstart.git
+$ cd preact-quickstart
+```
+
 
 ### Install project dependencies
 
