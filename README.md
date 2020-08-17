@@ -37,11 +37,18 @@ $ git clone git@github.com:MichaelCurrin/preact-quickstart.git
 $ cd preact-quickstart
 ```
 
-
 ### Install project dependencies
 
 ```sh
 $ npm install
+```
+
+This covers 3 production dependencies and 8 dev dependenciest that come in [package.json](/package.json) 
+
+On a firstt-time install of the generated quickstart, I got this output:
+
+```
+added 1649 packages from 803 contributors and audited 1649 packages in 84.978s
 ```
 
 
