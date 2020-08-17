@@ -34,16 +34,32 @@ $ npm install
 
 ## Usage
 
+### Dev
+
+Serve with hot reload at localhost:8080.
+
 ```sh
-# Serve with hot reload at localhost:8080
 $ npm run dev
+```
 
-# Build for production with minification
+### Production
+
+Build to the `build` directory (created if it doesn't yet exist).
+
+```sh
 $ npm run build
+```
 
-# Test the production build locally
+Test the production build locally (above step must be run first).
+
+```sh
 $ npm run serve
+```
 
-# Run tests with jest and enzyme
+### Tests
+
+Run tests with jest and enzyme.
+
+```sh
 $ npm run test
 ```
