@@ -7,7 +7,19 @@
 
 [![npm preact](https://img.shields.io/badge/npm-preact-blue)](https://www.npmjs.com/package/preact)
 
+<div align=center>
+
 [![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/preact-quickstart/generate)
+
+</div>
+
+
+## Preview
+
+<div align=center>
+    <img src=sample.png alt="Sample screenshot" title="Sample screenshot" height="400" />
+</div>
+
 
 
 ## What is Preact?
