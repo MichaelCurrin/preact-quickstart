@@ -68,3 +68,14 @@ Run tests with jest and enzyme.
 ```sh
 $ npm run test
 ```
+
+
+## License
+
+Released under [MIT](/LICENSE).
+
+Based on the CLI quickstart output which includes the default setup here:
+
+- https://github.com/preactjs-templates/default
+
+See the [source license](/LICENSE-source).
