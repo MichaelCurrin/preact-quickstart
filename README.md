@@ -108,11 +108,18 @@ $ npm run serve
 
 ### Tests
 
-Run tests with jest and enzyme.
+Run tests with `jest` and `enzyme` packages.
 
 ```sh
 $ npm run test
 ```
+
+## Deploy
+
+There is no CI/CD flow setup for this repo.
+
+If you want to add one using GitHub Actions, see sample [NPM workflows](https://github.com/MichaelCurrin/code-cookbook/blob/master/recipes/ci-cd/github-actions/workflows/node/npm.md) in my Code Cookbook.
+
 
 
 ## License
