@@ -84,42 +84,58 @@ added 1649 packages from 803 contributors and audited 1649 packages in 84.978s
 
 ## Usage
 
-### Dev
+### Lint
 
-Serve with hot reload at localhost:8080.
+Lint with ESLint.
+
+```sh
+$ npm run lint
+```
+
+### Tests
+
+Run tests using the `jest` and `enzyme` packages.
+
+```sh
+$ npm test
+```
+
+### Start dev server
+
+Serve with hot-reload.
 
 ```sh
 $ npm run dev
 ```
 
-### Production
+Open the browser at:
 
-Build to the `build` directory (created if it doesn't yet exist).
+- [localhost:8080](https://localhost:8080)
+
+
+## Deploy
+
+### Local production build
+
+Build to the `build` directory (created if it doesn't exist yet).
 
 ```sh
 $ npm run build
 ```
 
-Test the production build locally (above step must be run first).
+Test the production build output locally (the above step must be run first).
 
 ```sh
 $ npm run serve
 ```
 
-### Tests
+### Deploy pipeline
 
-Run tests with `jest` and `enzyme` packages.
+This project is setup to run a CI/CD builds on GitHub pages. See the _Actions_ tab on the repo for build status and logs.
 
-```sh
-$ npm run test
-```
+See the [workflow config](/.github/workflows/main.yml) file.
 
-## Deploy
-
-There is no CI/CD flow setup for this repo.
-
-If you want to add one using GitHub Actions, see sample [NPM workflows](https://github.com/MichaelCurrin/code-cookbook/blob/master/recipes/ci-cd/github-actions/workflows/node/npm.md) in my Code Cookbook.
-
+The build is not persisted and served on GH Pages, however, this [React quickstart](https://github.com/MichaelCurrin/react-create-app-quickstart) projects does do that and so that can be brought in here if needed.
 
 
 ## License
