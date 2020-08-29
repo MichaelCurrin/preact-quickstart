@@ -1,13 +1,13 @@
 # Preact Quickstart
 > Template project for a basic Preact app with the default setup
 
-
+![Node CI](https://github.com/MichaelCurrin/preact-quickstart/workflows/Node%20CI/badge.svg)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/preact-quickstart)](https://github.com/MichaelCurrin/preact-quickstart/tags/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 [![npm preact](https://img.shields.io/badge/npm-preact-blue)](https://www.npmjs.com/package/preact)
 
-<div align=center>
+<div align="center" >
 
 [![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/preact-quickstart/generate)
 
@@ -16,10 +16,9 @@
 
 ## Preview
 
-<div align=center>
+<div align="center">
     <img src=sample.png alt="Sample screenshot" title="Sample screenshot" height="400" />
 </div>
-
 
 
 ## What is Preact?
