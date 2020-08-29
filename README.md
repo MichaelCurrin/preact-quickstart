@@ -1,7 +1,7 @@
 # Preact Quickstart
 > Template project for a basic Preact app with the default setup
 
-![Node CI](https://github.com/MichaelCurrin/preact-quickstart/workflows/Node%20CI/badge.svg)
+[![Node CI](https://github.com/MichaelCurrin/preact-quickstart/workflows/Node%20CI/badge.svg)](https://github.com/MichaelCurrin/preact-quickstart/actions)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/preact-quickstart)](https://github.com/MichaelCurrin/preact-quickstart/tags/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
