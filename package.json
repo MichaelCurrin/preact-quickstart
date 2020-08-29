@@ -1,19 +1,18 @@
 {
-  "private": true,
   "name": "preact-quickstart",
   "version": "0.1.0",
   "license": "MIT",
-  "scripts": {
-    "build": "preact build",
-    "serve": "sirv build --port 8080 --cors --single",
-    "dev": "preact watch",
-    "lint": "eslint src",
-    "test": "jest"
-  },
   "eslintConfig": {
     "extends": "preact",
     "ignorePatterns": [
       "build/"
+    ]
+  },
+  "jest": {
+    "preset": "jest-preset-preact",
+    "setupFiles": [
+      "<rootDir>/tests/__mocks__/browserMocks.js",
+      "<rootDir>/tests/__mocks__/setupTests.js"
     ]
   },
   "devDependencies": {
@@ -31,11 +30,11 @@
     "preact-render-to-string": "^5.1.4",
     "preact-router": "^3.2.1"
   },
-  "jest": {
-    "preset": "jest-preset-preact",
-    "setupFiles": [
-      "<rootDir>/tests/__mocks__/browserMocks.js",
-      "<rootDir>/tests/__mocks__/setupTests.js"
-    ]
+  "scripts": {
+    "lint": "eslint src",
+    "test": "jest",
+    "dev": "preact watch",
+    "build": "preact build",
+    "serve": "sirv build --port 8080 --cors --single"
   }
 }
