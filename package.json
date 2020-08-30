@@ -1,19 +1,10 @@
 {
   "name": "preact-quickstart",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
-  "eslintConfig": {
-    "extends": "preact",
-    "ignorePatterns": [
-      "build/"
-    ]
-  },
-  "jest": {
-    "preset": "jest-preset-preact",
-    "setupFiles": [
-      "<rootDir>/tests/__mocks__/browserMocks.js",
-      "<rootDir>/tests/__mocks__/setupTests.js"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelcurrin/preact-quickstart.git"
   },
   "devDependencies": {
     "enzyme": "^3.10.0",
@@ -36,5 +27,18 @@
     "dev": "preact watch",
     "build": "preact build",
     "serve": "sirv build --port 8080 --cors --single"
+  },
+    "eslintConfig": {
+    "extends": "preact",
+    "ignorePatterns": [
+      "build/"
+    ]
+  },
+  "jest": {
+    "preset": "jest-preset-preact",
+    "setupFiles": [
+      "<rootDir>/tests/__mocks__/browserMocks.js",
+      "<rootDir>/tests/__mocks__/setupTests.js"
+    ]
   }
 }
