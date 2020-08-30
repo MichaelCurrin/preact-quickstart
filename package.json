@@ -1,5 +1,6 @@
 {
   "name": "preact-quickstart",
+  "description": "Template project for a basic Preact app with the default setup"
   "version": "1.0.0",
   "license": "MIT",
   "repository": {
