@@ -29,7 +29,7 @@
     "build": "preact build",
     "serve": "sirv build --port 8080 --cors --single"
   },
-    "eslintConfig": {
+  "eslintConfig": {
     "extends": "preact",
     "ignorePatterns": [
       "build/"
