@@ -31,11 +31,28 @@ From [preactjs.com](https://preactjs.com):
 
 If you are new to Preact, see the [Getting Start](https://preactjs.com/guide/v10/getting-started) page of the docs.
 
-The whole point of Preact is that it is very small and light package that gives most of the React functionality. If you use few or no dependencies already and want to keep your project fast, then Preact is a great fit. You can even use it to on the frontend only to add a widget to page.
+The whole point of Preact is that it is very small and light package that gives most of the React functionality. If you use few or no dependencies already and want to keep your project fast, then Preact is a great fit.
 
-The problems comes in when you add other packages to your project as well that are bigger than Preact - then your footprint for JS assets the user has to download becomes bloated and you might as well use React.
+You can easily add Preact to your frontend like this:
 
-This quickstart project uses over 1600 dependencies once prod and dev dependencies are installed. So that might default the point of choosing Preact over React. If you do a prod install (`npm i --only=prod`) then only 4 packages get installed (one not in direct dependencies).
+```html
+<script type="module">
+  import { h, Component, render } from 'https://unpkg.com/preact?module';
+
+  // Create your app
+  const app = h('h1', null, 'Hello World!');
+
+  render(app, document.body);
+</script>
+```
+
+This is ideal if you want to add behavior or a widget to your frontend without rewriting your entire application or bloating the download size with packages. Note that you cannot use JSX syntax in this approach.
+
+Or you can use Preact as CLI tool, as this project does.
+
+The problems come in when you add _other_ packages to your project as well that are _bigger_ than Preact - then your footprint for JS assets the user has to download becomes bloated and you might as well use React.
+
+This quickstart project uses over 2000 dependencies once prod and dev dependencies are installed. So that might defeat the point of choosing Preact over React. If you do a prod install (`npm i --only=prod`) then only 4 packages get installed (one not in direct dependencies).
 
 Preact also has great community support - check the online forums or Slack if you are stuck.
 
