@@ -33,7 +33,7 @@ If you are new to Preact, see the [Getting Start](https://preactjs.com/guide/v10
 
 The whole point of Preact is that it is very small and light package that gives most of the React functionality. If you use few or no dependencies already and want to keep your project fast, then Preact is a great fit. You can even use it to on the frontend only to add a widget to page.
 
-The problems comes in when you add other packages to your project as well that are bigger than Preact - then your footprint for JS assets the user has to download becomes bloated and you might as well use React. 
+The problems comes in when you add other packages to your project as well that are bigger than Preact - then your footprint for JS assets the user has to download becomes bloated and you might as well use React.
 
 This quickstart project uses over 1600 dependencies once prod and dev dependencies are installed. So that might default the point of choosing Preact over React. If you do a prod install (`npm i --only=prod`) then only 4 packages get installed (one not in direct dependencies).
 
@@ -74,12 +74,19 @@ $ npm install
 
 #### Notes
 
-That install covers 3 production dependencies and 8 dev dependenciest that come in [package.json](/package.json) 
+That install covers 3 production dependencies and 8 dev dependencies that come in [package.json](/package.json)
 
 On a first-time install of the generated quickstart, I got this output:
 
 ```
 added 1649 packages from 803 contributors and audited 1649 packages in 84.978s
+```
+
+A few months later, this was higher:
+
+```sh
+$ npm i
+audited 2270 packages in 15.531s
 ```
 
 
