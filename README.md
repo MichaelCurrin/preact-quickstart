@@ -86,6 +86,8 @@ A few months later, this was higher:
 
 ```sh
 $ npm i
+```
+```
 audited 2270 packages in 15.531s
 ```
 
