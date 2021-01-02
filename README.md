@@ -5,7 +5,7 @@
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/preact-quickstart)](https://github.com/MichaelCurrin/preact-quickstart/tags/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
-[![npm preact](https://img.shields.io/badge/npm-preact-blue)](https://www.npmjs.com/package/preact)
+[![Package - preact](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/preact-quickstart/preact)](https://www.npmjs.com/package/preact)
 
 ---
 
@@ -95,7 +95,7 @@ $ npm run lint
 
 ### Tests
 
-Run tests using the `jest` and `enzyme` packages.
+Run tests using the `jest` and `enzyme`.
 
 ```sh
 $ npm test
@@ -103,10 +103,10 @@ $ npm test
 
 ### Start dev server
 
-Serve with hot-reload.
+Serve with hot-reloading.
 
 ```sh
-$ npm run dev
+$ npm start
 ```
 
 Open the browser at:
@@ -118,13 +118,13 @@ Open the browser at:
 
 ### Local production build
 
-Build to the `build` directory (created if it doesn't exist yet).
+Build to the unversioned `build` directory.
 
 ```sh
 $ npm run build
 ```
 
-Test the production build output locally (the above step must be run first).
+Start a static server in that directory.
 
 ```sh
 $ npm run serve
@@ -141,10 +141,10 @@ The build is not persisted and served on GH Pages, however, this [React quicksta
 
 ## License
 
-Released under [MIT](/LICENSE).
+Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).
 
-Based on the CLI quickstart output which includes the default setup here:
+This project is based on the CLI quickstart output which includes the default setup here:
 
-- https://github.com/preactjs-templates/default
+[![preactjs-templates - default](https://img.shields.io/static/v1?label=preactjs-templates&message=default&color=blue&logo=github)](https://github.com/preactjs-templates/default)
 
 See the [source license](/LICENSE-source).
