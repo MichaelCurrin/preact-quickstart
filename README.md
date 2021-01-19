@@ -5,6 +5,7 @@
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/preact-quickstart)](https://github.com/MichaelCurrin/preact-quickstart/tags/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
+[![Made with Node](https://img.shields.io/badge/Node.js->=10-blue?logo=node.js&logoColor=white)](https://nodejs.org)
 [![Package - preact](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/preact-quickstart/preact)](https://www.npmjs.com/package/preact)
 
 ---
@@ -25,7 +26,7 @@
 
 ## What is Preact?
 
-From [preactjs.com](https://preactjs.com):
+From the [preactjs.com](https://preactjs.com) homepage:
 
 > Fast 3kB alternative to React with the same modern API.
 
@@ -74,7 +75,7 @@ $ npm install
 
 #### Notes
 
-That install covers 3 production dependencies and 8 dev dependencies that come in [package.json](/package.json)
+That install commands covers 3 production dependencies and 8 dev dependencies - see [package.json](/package.json)
 
 On a first-time install of the generated quickstart, I got this output:
 
@@ -84,12 +85,11 @@ added 1649 packages from 803 contributors and audited 1649 packages in 84.978s
 
 A few months later, this was higher:
 
-```sh
-$ npm i
-```
 ```
 audited 2270 packages in 15.531s
 ```
+
+So yes, Preact is light on your frontend for your user, but you still get a ton of local dependencies to manage.
 
 
 ## Usage
@@ -104,7 +104,7 @@ $ npm run lint
 
 ### Tests
 
-Run tests using the `jest` and `enzyme`.
+Run tests using `jest` and `enzyme`.
 
 ```sh
 $ npm test
