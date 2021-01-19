@@ -1,7 +1,8 @@
 {
   "name": "preact-quickstart",
-  "description": "Template project for a basic Preact app with the default setup",
   "version": "1.0.0",
+  "license": "MIT",
+  "description": "Template project for a basic Preact app with the default setup",
   "scripts": {
     "lint": "eslint src",
     "test": "jest",
@@ -37,10 +38,5 @@
       "<rootDir>/tests/__mocks__/browserMocks.js",
       "<rootDir>/tests/__mocks__/setupTests.js"
     ]
-  },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/michaelcurrin/preact-quickstart.git"
   }
 }
