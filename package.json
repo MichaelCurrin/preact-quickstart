@@ -1,8 +1,6 @@
 {
   "name": "preact-quickstart",
   "version": "1.0.0",
-  "license": "MIT",
-  "description": "Template project for a basic Preact app with the default setup",
   "scripts": {
     "lint": "eslint src",
     "test": "jest",
@@ -26,6 +24,7 @@
     "preact-cli": "^3.0.5",
     "sirv-cli": "^1.0.10"
   },
+  "license": "MIT",
   "eslintConfig": {
     "extends": "preact",
     "ignorePatterns": [
