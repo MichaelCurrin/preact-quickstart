@@ -24,13 +24,17 @@
 </div>
 
 
-## What is Preact?
+## About Preact
+
+### What is Preact?
 
 From the [preactjs.com](https://preactjs.com) homepage:
 
 > Fast 3kB alternative to React with the same modern API.
 
 If you are new to Preact, see the [Getting Start](https://preactjs.com/guide/v10/getting-started) page of the docs.
+
+### Why Preact?
 
 The whole point of Preact is that it is very small and light package that gives most of the React functionality. If you use few or no dependencies already and want to keep your project fast, then Preact is a great fit. You can even use it to on the frontend only to add a widget to page.
 
@@ -40,16 +44,30 @@ This quickstart project uses over 1600 dependencies once prod and dev dependenci
 
 Preact also has great community support - check the online forums or Slack if you are stuck.
 
+### How does it compare to React?
 
-## Background
+Preact is supposed to cover most functionality in React that you're likely to need.
+
+Preact and React code looks very similar. One difference is that you can use `class` on element in Preact, while in React you need `className`.
+
+Check out my [React Quickstart](https://github.com/MichaelCurrin/preact-quickstart) repo to compare how a basic app is structured in each library.
+
+Preact needs its own plugins though. Unless you can configure a React plugin to look for Preact.
+
+
+## Create a fresh project
 
 This project was generated using instructions in the [preact-cli](https://github.com/preactjs/preact-cli#readme) README file.
+
+You can do the same with:
 
 ```sh
 $ npx preact-cli create default my-project
 ```
 
-The `default` value was used here. The repo's doc linked above covers other options.
+The `default` value was used here. The oc linked above covers other options.
+
+Creating a new project will give you code that might be more up to date than this Preact Quickstart template project. But you can still use this template project as a reference for sample documentation and a CI workflow for your own project.
 
 
 ## Installation
@@ -60,7 +78,7 @@ Install [Node.js](https://gist.github.com/MichaelCurrin/aa1fc56419a355972b96bce2
 
 ### Clone
 
-Clone this project.
+Clone this project:
 
 ```sh
 $ git clone git@github.com:MichaelCurrin/preact-quickstart.git
