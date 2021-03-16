@@ -8,19 +8,21 @@
 [![Made with Node](https://img.shields.io/badge/Node.js->=10-blue?logo=node.js&logoColor=white)](https://nodejs.org)
 [![Package - preact](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/preact-quickstart/preact)](https://www.npmjs.com/package/preact)
 
----
-
-<div align="center">
-
-[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/preact-quickstart/generate)
-
-</div>
 
 
 ## Preview
 
 <div align="center">
     <img src=sample.png alt="Sample screenshot" title="Sample screenshot" height="400" />
+</div>
+
+
+## Use this project
+
+<div align="center">
+
+[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/preact-quickstart/generate)
+
 </div>
 
 
@@ -32,7 +34,7 @@ From the [preactjs.com](https://preactjs.com) homepage:
 
 > Fast 3kB alternative to React with the same modern API.
 
-If you are new to Preact, see the [Getting Start](https://preactjs.com/guide/v10/getting-started) page of the docs.
+If you are new to Preact, see the [Getting Started](https://preactjs.com/guide/v10/getting-started) page of the docs.
 
 ### Why Preact?
 
@@ -65,7 +67,7 @@ You can do the same with:
 $ npx preact-cli create default my-project
 ```
 
-The `default` value was used here. The oc linked above covers other options.
+The `default` value was used here. The  page linked above covers other options.
 
 Creating a new project will give you code that might be more up to date than this Preact Quickstart template project. But you can still use this template project as a reference for sample documentation and a CI workflow for your own project.
 
